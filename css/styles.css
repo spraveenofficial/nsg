@@ -1,5 +1,4 @@
 /* Author : Praveen Singh */
-
 /* FB : https://www.facebook.com/spraveenofficial */
 
 body,
@@ -68,9 +67,8 @@ h6 {
 }
 .short-heading {
 	font-weight: bold;
-
-	color:
 }
+
 .above-heading {
 	color: #5f4dee;
 	font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
@@ -2118,5 +2116,9 @@ a:hover.back-to-top {
 		margin-left: 1.75rem;
 	}
 	/* end of extra pages */
+}
+.join-heading {
+	font-weight: bolder;
+	/* font-family: 'Poppins', sans-serif; */
 }
 /* end of min-width width 1200px */
