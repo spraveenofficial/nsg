@@ -2121,4 +2121,11 @@ a:hover.back-to-top {
 	font-weight: bolder;
 	/* font-family: 'Poppins', sans-serif; */
 }
+.text-container1 {
+	padding: 0%;
+	margin: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #5f4dee;
+}
 /* end of min-width width 1200px */
