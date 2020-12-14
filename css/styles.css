@@ -2174,11 +2174,20 @@ a:hover.back-to-top {
 /* .trading-buttons {
 	
 } */
+.col-1909 {
+	display: inline-flex;
+  flex-flow: row wrap;
+  height: 600px;
+  width: 580px;
+  /* background-color: rgb(240, 240, 240); */
+}
 .text-container2 {
+	background-size: cover;
 	color: white;
-	/* width: 100%; */
-	padding: 0mm;
-	height: 500px;
+	width: 100%; 
+	/* padding-top: 6rem; */
+	/* padding: 0mm;
+	height: 500px; */
 	background-color: #5f4dee;
 }
 /* end of min-width width 1200px */
