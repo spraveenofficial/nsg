@@ -12,7 +12,7 @@ body, p {
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;;
 }
 .navbar-brand logo-image img{
-	width: 10px;
+	width: 5px;
 	height: auto;
 }
 .p-large {
@@ -635,7 +635,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-brand.logo-image img {
     width: 4.4375rem;
-	height: 1.75rem;
+	height: 2.75rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
