@@ -2149,4 +2149,36 @@ a:hover.back-to-top {
 	color: white;
 	margin: 20px;
 }
+.tg-download {
+	display: flex;	/* margin-bottom: 100px; */
+	/* background-color: grey; */
+	max-width: 100%;
+	height: auto;
+	padding-right: 10rem;
+	padding-top: 8rem;
+	padding-bottom: 6.75rem;
+	background-color: #f3f7fd;
+}
+.trading-button {
+	padding-top: 50px;
+	display: inline-block;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	border: 0.125rem solid #5f4dee;
+	border-radius: 2rem;
+	background-color:greenyellow;
+	color: #fff;
+	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+/* .trading-buttons {
+	
+} */
+.text-container2 {
+	color: white;
+	/* width: 100%; */
+	padding: 0mm;
+	height: 500px;
+	background-color: #5f4dee;
+}
 /* end of min-width width 1200px */
