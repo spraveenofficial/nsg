@@ -2250,3 +2250,7 @@ a:link {
 	  font-size: 1rem;
 	  font-family: Sans-Serif;
   }
+.footertext {
+	display: inline-block;
+
+}
