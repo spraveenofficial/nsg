@@ -2128,4 +2128,12 @@ a:hover.back-to-top {
 	height: 100%;
 	background-color: #5f4dee;
 }
+.footer-image {
+	height: 200px;
+	/* width: 0rem; */
+}
+.footer-text {
+	color: white;
+	margin: 20px;
+}
 /* end of min-width width 1200px */
