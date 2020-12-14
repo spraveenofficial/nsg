@@ -2191,91 +2191,62 @@ a:hover.back-to-top {
 	background-color: #5f4dee;
 }
 .downloadable-text {
-	margin-bottom: 50px;
+	margin-bottom:50px ;
 }
 /* end of min-width width 1200px */
 
-#ad-pop-txt {
-	position:fixed;
-	bottom:0;
-	right:0;
-	background:#5f4dee;
-	text-align:center;
-	width:100%;
-	height:70px;
-	vertical-align:middle;
-	font-size:14px;
-	line-height:20px;
-	font-family:sans-serif;
-	transition:all 0.5s;
+
+a:link {
+	color: white;
+	text-decoration: none;
   }
-  #ad-pop-txt.hidden {
-	bottom:-90px;
+  a:visited {
+	color: #006858;
+	text-decoration: none;
   }
-  #ad-pop-txt.min {
-	width:200px;
-	height:50px;
+  a:hover {
+	color: #FF0000;
+	text-decoration: none;
   }
-  #ad-pop-txt.min .text-sub {
-	display:block;
-	font-size:12px;
-	line-height:15px;
+  a:active {
+	text-decoration: none;
   }
-  #ad-pop-txt.min .text-main {
-	display:none;
-  }
-  #ad-pop-txt.min .inner {
-	height:50px;
-  }
-  #ad-pop-txt div {
-	display:table-cell;
-	vertical-align:middle;
-	padding:0 10px;
-  }
-  .inner {
-	height:70px;
-	display:table;
-	width:100%;
-	text-decoration:none;
-	background:white;
-	color:#000;
-  }
-  .inner:hover {
-	background:#FFC926;
-  }
-  p {
+  
+  
+  body {
 	margin:0;
 	padding:0;
   }
-  p span {
-	text-decoration:underline;
-	color:#0000FF;
+  
+  #footerSlideContainer {
+	position: fixed;
+	bottom:0;
+	width: 100%;
   }
-  .text-sub {
-	display:none;
+  #footerSlideButton {
+	background: url("https://image.ibb.co/bLpUjn/close.png") top left no-repeat transparent;
+	position: absolute;
+	top: -19px;
+	right: 20px;
+	width:50px;
+	height:50px;
+	border: none;
+	cursor: pointer;
   }
-  .close {
-	position:absolute;
-	top:-15px;
-	right:0;
+  #footerSlideContent {
+	width: 100%;
+	/* height: 170px; */
+	background: yellowgreen;
+	color: #fff;
+	border: none;
   }
   
-  @media (min-width: 700px) {
-	#ad-pop-txt {
-	  font-size:18px;
-	  line-height:25px;
-	}
-	#ad-pop-txt.min .inner {
-	height:70px;
-  }
-	#ad-pop-txt.min .text-sub {
-	display:none;
-  }
-  #ad-pop-txt.min .text-main {
-	display:block;
-  }
-	#ad-pop-txt.min {
-	width:300px;
-	  height:70px;
-  }
+  
+  #footerSlideText {
+	  width: 80%;
+	  margin: 0 auto;
+	  padding: 10px 0px;
+	  line-height: 1.75;
+	  font-size: 1rem;
+	  font-family: Sans-Serif;
   }

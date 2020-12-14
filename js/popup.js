@@ -1,7 +1,9 @@
-$(document).ready(function() {
-  $("#ad-pop-txt").removeClass("hidden");
-  $("#close-popup").click(function() {
-    $("#ad-pop-txt").addClass("min");
-    $(this).hide();
-  });
+$(function() {
+
+  var open = true;
+  $('#footerSlideButton').click(function () {
+      $('#footerSlideContent').animate({ height: '0px' });       
+      $(this).css('display', 'none');
+       open = true;
+  });   
 });
