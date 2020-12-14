@@ -2199,7 +2199,7 @@ a:hover.back-to-top {
 	position:fixed;
 	bottom:0;
 	right:0;
-	background:#FFFF00;
+	background:#5f4dee;
 	text-align:center;
 	width:100%;
 	height:70px;
@@ -2237,7 +2237,7 @@ a:hover.back-to-top {
 	display:table;
 	width:100%;
 	text-decoration:none;
-	background:#ECB100;
+	background:white;
 	color:#000;
   }
   .inner:hover {
