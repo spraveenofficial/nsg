@@ -146,7 +146,7 @@ a.white {
 	border: 0.125rem solid #5f4dee;
 	border-radius: 2rem;
 	background-color: #5f4dee;
-	color: #fff;
+	color: red;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -786,8 +786,8 @@ input[type='checkbox'] {
 	margin-bottom: 1.125rem;
 	margin-left: 0.5rem;
 	border-color: #f3f7fd;
-	background-color: #f3f7fd;
-	color: #5f4dee;
+	background-color:greenyellow;
+	color: black;
 }
 
 .header .btn-solid-lg:hover {
